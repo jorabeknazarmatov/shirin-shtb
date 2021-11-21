@@ -2,10 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 a{
     text-decoration: none;
 }
+
+/************ Carousel boshlandi *****************/
 .carousel_title{
     z-index: 3;
     color: azure;
@@ -21,6 +24,9 @@ a{
     border-radius: 25px;
     text-transform: uppercase;
 }
+.carousel-inner{
+    background-color: #1F3C88;
+}
 .left1{
     margin-left: 10vw;
     background-color:#1F3C88;
@@ -32,15 +38,19 @@ a{
 .bottom{
     top: 80%;
     left: 10%;
+    width: 250px;
 }
 .down_img{
     width: 5%;
     height: 5%;
     margin-right: 3%;
 }
-.sevices{
+/************ Carousel tugadi *****************/
+
+/************ Services boshlandi *****************/
+.services{
     background: url(../image/logo/bg-services.png) no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
 }
 .container{
     max-width: 1440px;
@@ -53,6 +63,7 @@ a{
 .services_link{
     width: 100%;
     height: 100%;
+    background-color: #FFFFFF;
 }
 .services_link img{
     width: 12%;
@@ -74,38 +85,152 @@ a{
     margin: 0;
     font-family: Montserrat-Bold, sans-serif;
 }
-.link_section span{
+.link_section{
     font-family: Montserrat-Regular, sans-serif;
     display: block;
-    width: 40%;
-    margin-left: 49%;
+    width: 18%;
+    margin-left: 27.8%;
     text-indent: 5%;
     background: #1F3C88;
     color: azure;
     border-radius: 25px;    
     text-transform: uppercase;
 }
+.link_section:hover{
+    background-color: #1F3C88;    
+    color: azure;
+}
+/************ Services tugadi *****************/
+
+/************ News boshlandi *****************/
 .news{
     background: url(../image/logo/news_bg.png) no-repeat;
     background-position: 100% 100%;
 }
-.col-md-6{
-    border-bottom: 1px solid rgba(0, 0, 0, .128);
+.news_after::after{
+    content: '';
+    display: block;
+    width: 99%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .128);
+    z-index: 5;
 }
-.col-md-6:nth-child(even){
+.news .col-md-6:nth-child(even){
     border-right: 1px solid rgba(0, 0, 0, .128);
 }
-.col-md-6:last-child,.col-md-6:nth-last-child(2){
-    border-bottom: none;
+.new-iteam{
+    padding: 5%;
 }
+.news_link{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+}
+.nav_date{
+    padding: 8%;
+    width: 20%;
+    height: 40%;
+    display: inline-block;
+}
+.nav_date span{
+    display: block;
+    font-size: 110%;
+    text-align: center;
+    color: #1F3C88;
+}
+.nav_date span:first-child{
+    font-size: 180%;
+}
+.new_content{
+    color: #696969;
+    font-size: 80%;
+}
+.new_content h5{
+    color: #313131;
+    font-size: 120%;
+}
+/************ News tugadi *****************/
+
+/************ Document boshlandi *****************/
 .document{
     padding-bottom: 8%;
 }
-footer{
-    height: 20vh;
-    color: azure;
-    padding-top: 9vh;
-    text-align: center;
+.doc_item{
+    width: 24%;
+    height: 20%;
+    margin: .5%;
     font-family: Montserrat-Regular, sans-serif;
-    cursor: pointer;
 }
+.doc_link{
+    width: 100%;
+    padding-top: 5%;
+}
+.doc_item .d-flex{
+    height: 20%;
+}
+.d-flex a{
+    display: block;
+    width: 100%;
+}
+.d-flex a img{
+    width: 50%;
+    height: 50%;
+}
+.doc_item .d-flex span{
+    display: block;
+    width: 50%;
+}
+/************ Document tugadi *****************/
+
+/************ Footer boshlandi *****************/
+footer{
+    display: flex;
+    font-family: Montserrat-Regular, sans-serif;
+}
+footer span{
+    color: azure;
+    display: block;
+}
+.org_lacation{
+    border-radius: 25px;
+    width: 50%; 
+    height: 500px;
+    margin: 0 3%;
+    background-color: #212529;
+}
+.org_lacation iframe{
+    width: 800px;
+    height: 500px;
+    display: block;
+}
+/************ Footer tugadi *****************/
+
+/************ Send mail boshlandi *****************/
+.send_mail{
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    padding: 17px  35px 0 35px;
+    height: 50%;
+    width: 25%;
+    background: green;
+    border-radius: 25px 25px 0 0;
+    z-index: 5;
+    cursor: pointer;
+    display: none;
+}
+.send_mail img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 480px) {
+    *{
+        font-size: 8px;
+    }
+
+    .send_mail {
+      display: none;
+    }
+}
+/************ Send mail tugadi *****************/

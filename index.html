@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/image/logo/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="image/logo/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="fonts/montserrat.css">
-    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="style/main.css">
     <script src="js/bootstrap.js" defer></script>
     <title>Home</title>
 </head>
@@ -29,9 +29,9 @@
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Muassasa
                                         </a>
-                                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Shirin shahar ko`p tarmoqli markaziy poliklinika</a></li>
-                                            <li><a class="dropdown-item" href="#">Nurobod Oilaviy Shirfokorlik Punkti</a></li>
+                                        <ul class="dropdown-menu dropdown-menu-dark dropdown_ul" aria-labelledby="navbarDarkDropdownMenuLink">
+                                            <li><a class="dropdown-item dropdown_li p-2" href="#">Shirin shahar ko`p tarmoqli markaziy poliklinika</a></li>
+                                            <li><a class="dropdown-item dropdown_li p-2" href="#">Nurobod Oilaviy Shirfokorlik Punkti</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item pl-2">
@@ -65,13 +65,13 @@
             </a>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/image/slider/original/banner1.jpg" class="d-block w-100" alt="Kino slider">
+                    <img src="image/slider/original/banner1.jpg" class="d-block w-100" alt="Kino slider" style="opacity: .5;">
                 </div>
                 <div class="carousel-item">
-                    <img src="/image/slider/original/banner2.jpg" class="d-block w-100" alt="Multfilm slider">
+                    <img src="image/slider/original/banner2.jpg" class="d-block w-100" alt="Multfilm slider" style="opacity: .5;">
                 </div>
                 <div class="carousel-item">
-                    <img src="/image/slider/original/banner1.jpg" class="d-block w-100" alt="Game slider">
+                    <img src="image/slider/original/banner1.jpg" class="d-block w-100" alt="Game slider" style="opacity: .5;">
                 </div>
             </div>
         </div>
@@ -80,17 +80,15 @@
         <!-- Main boshlandi -->
 
         <!-- Services boshlandi -->
-        <section class="services mt-5">
+        <section class="services pt-5 pb-5">
             <div class="container">
-                <div class="services_title mt-2">
+                <div class="services_title pt-5 pb-5">
                     <h2>ИНТЕРАКТИВ ХИЗМАТЛАР</h2>
-                    <a href="#" class="link_section">
-                        <span class="p-2">Барча хизматлар 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-box-arrow-in-right ml-2" viewBox="0 0 16 16" style="width: 10%;height: 70%">
-                                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
-                                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
-                            </svg>
-                        </span>                
+                    <a href="#" class="link_section p-2">Барча хизматлар 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-box-arrow-in-right ml-2" viewBox="0 0 16 16" style="width: 10%;height: 70%">
+                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                        </svg>                
                     </a>
                 </div>
                 <div class="services_main">
@@ -137,23 +135,63 @@
         </section>
         <!-- Services tugadi -->
         <!-- News boshlani -->
-        <section class="news mt-5">
+        <section class="news pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="services_title mt-2">
+                    <div class="services_title pt-5 pb-5">
                         <h2>Янгиликлар</h2>
-                        <a href="#" class="link_section">
-                            <span class="p-2">Барча хизматлар 
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-box-arrow-in-right ml-2" viewBox="0 0 16 16" style="width: 10%;height: 70%">
-                                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
-                                    <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
-                                </svg>
-                            </span>                
+                        <a href="#" class="link_section p-2">Барча янгиликлар 
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-box-arrow-in-right ml-2" viewBox="0 0 16 16" style="width: 10%;height: 70%">
+                                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                            </svg>
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 news_after">
                         <div class="new-iteam">
-                            <a href="#">
+                            <a href="#" class="news_link">
+                                <div class="nav_date">
+                                    <span>20</span>
+                                    <span>Ноя</span>
+                                </div>
+                                <div class="new_content">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt magnam adipisci vel earum accusamus sit, ad minus dolor obcaecati dolorem id velit corrupti corporis</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam tempora quam nam maiores vel perferendis ea porro dolorum vitae ad eaque error, aliquid deleniti quisquam suscipit? Quaerat nemo veniam numquam!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 news_after">
+                        <div class="new-iteam">
+                            <a href="#" class="news_link">
+                                <div class="nav_date">
+                                    <span>20</span>
+                                    <span>Ноя</span>
+                                </div>
+                                <div class="new_content">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt magnam adipisci vel earum accusamus sit, ad minus dolor obcaecati dolorem id velit corrupti corporis</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam tempora quam nam maiores vel perferendis ea porro dolorum vitae ad eaque error, aliquid deleniti quisquam suscipit? Quaerat nemo veniam numquam!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 news_after">
+                        <div class="new-iteam">
+                            <a href="#" class="news_link">
+                                <div class="nav_date">
+                                    <span>20</span>
+                                    <span>Ноя</span>
+                                </div>
+                                <div class="new_content">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt magnam adipisci vel earum accusamus sit, ad minus dolor obcaecati dolorem id velit corrupti corporis</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam tempora quam nam maiores vel perferendis ea porro dolorum vitae ad eaque error, aliquid deleniti quisquam suscipit? Quaerat nemo veniam numquam!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 news_after">
+                        <div class="new-iteam">
+                            <a href="#" class="news_link">
                                 <div class="nav_date">
                                     <span>20</span>
                                     <span>Ноя</span>
@@ -167,7 +205,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="new-iteam">
-                            <a href="#">
+                            <a href="#" class="news_link">
                                 <div class="nav_date">
                                     <span>20</span>
                                     <span>Ноя</span>
@@ -181,49 +219,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="new-iteam">
-                            <a href="#">
-                                <div class="nav_date">
-                                    <span>20</span>
-                                    <span>Ноя</span>
-                                </div>
-                                <div class="new_content">
-                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt magnam adipisci vel earum accusamus sit, ad minus dolor obcaecati dolorem id velit corrupti corporis</h5>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam tempora quam nam maiores vel perferendis ea porro dolorum vitae ad eaque error, aliquid deleniti quisquam suscipit? Quaerat nemo veniam numquam!</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="new-iteam">
-                            <a href="#">
-                                <div class="nav_date">
-                                    <span>20</span>
-                                    <span>Ноя</span>
-                                </div>
-                                <div class="new_content">
-                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt magnam adipisci vel earum accusamus sit, ad minus dolor obcaecati dolorem id velit corrupti corporis</h5>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam tempora quam nam maiores vel perferendis ea porro dolorum vitae ad eaque error, aliquid deleniti quisquam suscipit? Quaerat nemo veniam numquam!</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="new-iteam">
-                            <a href="#">
-                                <div class="nav_date">
-                                    <span>20</span>
-                                    <span>Ноя</span>
-                                </div>
-                                <div class="new_content">
-                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt magnam adipisci vel earum accusamus sit, ad minus dolor obcaecati dolorem id velit corrupti corporis</h5>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam tempora quam nam maiores vel perferendis ea porro dolorum vitae ad eaque error, aliquid deleniti quisquam suscipit? Quaerat nemo veniam numquam!</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="new-iteam">
-                            <a href="#">
+                            <a href="#" class="news_link">
                                 <div class="nav_date">
                                     <span>20</span>
                                     <span>Ноя</span>
@@ -240,56 +236,106 @@
         </section>
         <!-- News tugadi -->
         <!-- Documents boshlandi -->
-        <section class="document mt-5">
+        <section class="document  pt-5 pb-5">
             <div class="container">
-                <div class="services_title mt-2">
+                <div class="services_title pt-5 pb-5">
                     <h2>Хужжатлар</h2>
-                    <a href="#" class="link_section">
-                        <span class="p-2">Барча хизматлар 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-box-arrow-in-right ml-2" viewBox="0 0 16 16" style="width: 10%;height: 70%">
-                                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
-                                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
-                            </svg>
-                        </span>                
+                    <a href="#" class="link_section p-2">Барча хужжатлар
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-box-arrow-in-right ml-2" viewBox="0 0 16 16" style="width: 10%;height: 70%">
+                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                        </svg>
                     </a>
                 </div>
-                <div class="services_main">
+                <div class="document_main">
                     <div class="row justify-content-center m-0 mt-2">
-                        <div class="col-xl-4 col-sm-6 services-item">
-                            <a href="#" class="btn btn services_link shadow">
-                                <img src="image/logo/taklif.png" alt="services">
-                                <span>Сайтга таклифлар</span>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
                             </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                             
                         </div>
-                        <div class="col-xl-4 col-sm-6 services-item">
-                            <a href="#" class="btn btn services_link shadow">
-                                <img src="image/logo/pullik_xizmat.png" alt="services">
-                                <span>Пуллик хизматлар</span>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
                             </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                             
                         </div>
-                        <div class="col-xl-4 col-sm-6 services-item">
-                            <a href="#" class="btn btn services_link shadow">
-                                <img src="image/logo/salomatlik.png" alt="services">
-                                <span>Репродуктив саломатлик</span>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
                             </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                             
                         </div>
-                        <div class="col-xl-4 col-sm-6 services-item">
-                            <a href="#" class="btn btn services_link shadow">
-                                <img src="image/logo/Atestatsiya.png" alt="services">
-                                <span>Атестациядан ўтган ходимлар</span>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
                             </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                             
                         </div>
-                        <div class="col-xl-4 col-sm-6 services-item">
-                            <a href="#" class="btn btn services_link shadow">
-                                <img src="image/logo/qabul.svg" alt="services">
-                                <span>Шифокорнинг қабул жадвали</span>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
                             </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                             
                         </div>
-                        <div class="col-xl-4 col-sm-6 services-item">
-                            <a href="#" class="btn btn services_link shadow">
-                                <img src="image/logo/dori_reestr.svg" alt="services">
-                                <span>Дори дармон реестри</span>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
                             </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                             
+                        </div>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
+                            </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                             
+                        </div>
+                        <div class="col-xl-3 col-sm-4 doc_item shadow">
+                            <a href="#" class="btn btn doc_link">
+                                Малака тоифаси бериш учун ўтказилган аттестация натижаларини тасдиқлаш тўғр…
+                            </a>
+                            <div class="d-flex p-2">
+                                <a href="">
+                                    <img src="image/logo/dori_reestr.svg" alt="services">
+                                </a>
+                                <span>18/11/2021   41</span>
+                            </div>                            
                         </div>
                     </div>
                 </div>
@@ -298,10 +344,18 @@
         <!-- Documents tugadi -->
         <!-- Main tugadi -->
         <!-- Footer boshlandi -->
-        <footer class="bg-dark">
+        <footer class="bg-dark pb-5 pt-5">
+            <div class="org_lacation">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1359.0434623631202!2d69.1325754524619!3d40.22470499486297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b191859007fa1d%3A0x4be0860c017469e3!2z0JPQvtGA0L7QtNGB0LrQsNGPINCR0L7Qu9GM0L3QuNGG0LA!5e1!3m2!1sru!2s!4v1637528704208!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            .
             <span class="" title="Bu mahsulot to'liqligicha FTA ga tegishli.">© This product is fully FTA compliant</span>
         </footer>
         <!-- Footer tugadi -->
+        <div class="send_mail">
+            <img src="https://img.icons8.com/ios/50/000000/-message-exchange.png">
+            <span>Отправти нам сообшения</span>
+        </div>
     </div>
 </body>
 </html>
