@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.carousel_title{
+    z-index: 3;
+    color: azure;
+    top: 20%;
+    left: 10%;
+}
+.carousel_link{
+    text-decoration: none;
+    display: inline-block;
+    padding: .8%;
+    z-index: 3;
+    top: 45%;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.left1{
+    margin-left: 10vw;
+    background-color:#1F3C88;
+}
+.left2{
+    margin-left: 21vw;
+    background-color:#1F3C88;
+}
+.bottom{
+    top: 80%;
+    left: 10%;
+}
+.down_img{
+    width: 5%;
+    height: 5%;
+    margin-right: 3%;
+}
+.sevices{
+    background: url(../image/logo/bg-services.png) no-repeat;
+    background-size: contain;
+}
+.container{
+    max-width: 1440px;
+}
+.services-item{
+    margin: 1.5%;
+    width: 30.3%;
+    font-family: Montserrat-Regular, sans-serif;
+}
+.services_link{
+    width: 100%;
+    height: 100%;
+}
+.services_link img{
+    width: 12%;
+    margin: 5% 3%;
+}
+.services_link span{
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+.services_title{
+    display: flex;
+    justify-content: center;
+}
+.services_title h2,.link_section{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    font-family: Montserrat-Bold, sans-serif;
+}
+.link_section span{
+    font-family: Montserrat-Regular, sans-serif;
+    display: block;
+    width: 40%;
+    margin-left: 49%;
+    text-indent: 5%;
+    background: #1F3C88;
+    color: azure;
+    border-radius: 25px;    
+    text-transform: uppercase;
+}
+.news{
+    background: url(../image/logo/news_bg.png) no-repeat;
+    background-position: 100% 100%;
+}
+.col-md-6{
+    border-bottom: 1px solid rgba(0, 0, 0, .128);
+}
+.col-md-6:nth-child(even){
+    border-right: 1px solid rgba(0, 0, 0, .128);
+}
+.col-md-6:last-child,.col-md-6:nth-last-child(2){
+    border-bottom: none;
+}
+.document{
+    padding-bottom: 8%;
+}
+footer{
+    height: 20vh;
+    color: azure;
+    padding-top: 9vh;
+    text-align: center;
+    font-family: Montserrat-Regular, sans-serif;
+    cursor: pointer;
+}
